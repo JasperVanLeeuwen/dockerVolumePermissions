@@ -1,0 +1,8 @@
+version: "3"
+services:
+  theservice:
+    build:
+      context: docker
+    volumes:
+    - "./data/input/:/data/input/"
+    - "./data/output/:/data/output/"
