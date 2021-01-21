@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-echo "$(id -u):$(id -g)" > docker/id.txt
+echo "$(id -u):$(id -g)" > ./config/id.txt
 docker-compose up --build
 
