@@ -6,3 +6,4 @@ services:
     volumes:
     - "./data/input/:/data/input/"
     - "./data/output/:/data/output/"
+    - "./id/:/id/"
